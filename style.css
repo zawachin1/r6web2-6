@@ -1,0 +1,63 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-image: url(img/bubble.jpg);/* 背景画像 */
+  background-size:cover;
+  background-repeat: no-repeat;/* 背景のくり返しをやめる */
+  background-position: top center;/* 背景の位置 */
+  height: 800px;/* 高さ */
+  padding-top:50px;
+}
+h1{
+  text-align: center;
+  color: #000;
+  -webkit-text-stroke: 1px #FFF;
+  text-stroke: 1px #FFF;
+  font-family: sans-serif;
+  font-size:50px;
+}
+p {
+  color:#000000;
+ font-size:25px;
+ -webkit-text-stroke: 1px #FFF;
+ text-stroke: 1px #FFF;
+ font-family: sans-serif;
+}
+a:hover {
+	color: #dc6688;
+	text-decoration: inherit;
+}
+.ichiretume{
+  float:left;
+  width:200px;
+}
+.niretume{
+  float:left;
+  width:200px;
+}
+.sanretume{
+  float:left;
+  width:200px;
+}
+.yonretume{
+  float:left;
+  width:200px;
+}
+footer {
+  text-align: center;
+  background-color: #003b46;
+  color: #ffffff;
+}
